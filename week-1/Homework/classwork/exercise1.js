@@ -5,4 +5,4 @@ let laptop = {
     isTouchscreen: true,
   };
 
-  console.log(laptop);
+  console.log(laptop); // logs all 4 objects
