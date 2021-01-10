@@ -6,3 +6,6 @@ let laptop = {
   };
 
   console.log(laptop); // logs all 4 objects
+
+console.log(laptop.brand); // dot notation for just brand (brand)
+

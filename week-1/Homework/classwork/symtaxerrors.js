@@ -19,4 +19,8 @@ let phone = {
     batteryLife: "24 hours", // why "" added comer
 }; // missing };
 
+// { }  object literal ???
+// furColor: = property or key
+
+
 console.log(kitten,laptop,phone);
