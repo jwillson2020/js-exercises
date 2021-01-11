@@ -1,0 +1,20 @@
+<html>
+
+<body>
+    <script>
+        function* number() {
+            var num = 10;
+            while (true) {
+                yield num--;
+            }
+        }
+        var gen = number();
+        document.write(gen.next().value); // 10
+        document.write("</br>");
+        document.write(gen.next().value); // 9
+        document.write("</br>");
+        document.write(gen.next().value);  // 8
+    </script>
+</body>
+
+</html>

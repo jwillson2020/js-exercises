@@ -5,7 +5,7 @@
 
 //Spread operators
 
-//[] arrays mainly   [1,2,3] // 1,2,3
+//[] arrays mainly   [1,2,3] // 1,2,3   // works on strings too ???  "a", "b" , "c"
 
 const arr = [1,2,3];
 
