@@ -25,7 +25,7 @@ state: 'one of them',
 
 
 function printUser({name, age}) {
-   console.log({name} , {age}); // with the key
+   console.log(${name} , ${age}); // with the key
    };
 
 
