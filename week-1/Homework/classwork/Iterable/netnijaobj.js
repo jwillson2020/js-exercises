@@ -7,8 +7,14 @@ let user = {  // literal object = {}
 
 name: 'Crystal',
 age: 30,
-email: 'cyrstal@yahoo.co.uk'
+email: 'cyrstal@yahoo.co.uk',
 Location: 'Berlin',
 blog:  ['10 things ',' why coding is']
+};
 
-}
+console.log(user);
+console.log(user.name);
+
+user.age = 35; // changes age to 35
+console.log(user.age); // .notation
+console.log(user['email']); // bracket form
